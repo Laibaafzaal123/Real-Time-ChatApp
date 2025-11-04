@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Room</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ✅ Logout small button (CSS will position it perfectly) -->
+  <button id="logout">LogOut</button>
+
+  <!-- ✅ Chat box -->
+  <div class="chat-container">
+
+    <h2>Realtime Chat</h2>
+
+    <!-- ✅ Messages area -->
+    <div id="messages" class="message-box"></div>
+
+    <!-- ✅ Input + Send in a row -->
+    <div class="input-row">
+      <input type="text" id="message" placeholder="Type a message..." />
+      <button id="send-btn">➤</button>
+    </div>
+
+  </div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
+
+
+
